@@ -1,0 +1,27 @@
+/* Launches.css */
+.launches-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .launch-link {
+    flex: 1 1 calc(30% - 20px); /* Allows up to three items per row */
+    max-width: calc(30% - 20px); /* Ensures the items don't grow too large */
+    box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+    transition: transform 0.2s;
+    margin: 10px;
+  }
+  
+  .launch-link:hover {
+    transform: scale(1.05);
+  }
+  
+  .launch-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  

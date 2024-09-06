@@ -1,0 +1,6 @@
+/* Slider.css */
+.custom-carousel .carousel-image {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
